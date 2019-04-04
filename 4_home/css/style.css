@@ -1124,8 +1124,7 @@ footer .footer_copyrighting span {
     width: 100%;
   }
   .welcome .out-system_bloks .out-system_blok {
-    width: 70%;
-    height: 300px;
+    width: 100%;
   }
   .relar_content {
     flex-direction: column;
