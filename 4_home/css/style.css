@@ -1158,6 +1158,9 @@ footer .footer_copyrighting span {
   .review {
     padding: 45px 0 0;
   }
+  .review .review-customers {
+    margin-right: 0;
+  }
   .review .slick-slide {
     height: 260px;
   }
