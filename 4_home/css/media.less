@@ -396,7 +396,7 @@
 		.out-system{
 			&_bloks{
 				.out-system_blok{
-					width: 75%;
+					width: 70%;
 					height: 300px;
 				}
 			}
@@ -417,8 +417,12 @@
 		&_content{
 			flex-direction: column;
 			.slick-prev{
-				left: 85%;
+				left: 83%;
+				margin:0;
 			}
+			// .slick-arrow{
+			// 	margin: 0;
+			// }
 			.blog{
 				flex-direction:column;
 				img{
@@ -442,9 +446,24 @@
 	}
 	.contact_us{
 		.feed{
+			.name_and_company{
+				flex-direction: column;
+				margin-bottom: 0;
+			}
+			.phone_and_mail{
+				flex-direction: column;
+				margin-bottom: 0;			
+				#applicationPhone{
+					margin-right: 0;
+				}
+			}
 			input{
-				padding: 10px;
+				box-sizing:border-box;
+				margin-right: 0;
+				padding: 0 10px;
 				font-size: 14px;
+				width: 100%;
+				margin-bottom: 20px;
 			}
 			button{
 				box-sizing: border-box;
@@ -456,10 +475,16 @@
 	.timer{
 		display: none;
 	}
-	.slick-prev{
-		margin-left: 20px;
 	}
-	.slick-next{
-		margin-right:20px;
-	}
+	.logs{
+		.slick-prev{
+			margin-left: 20px;
+		}
+		.slick-next{
+			margin-right:20px;
+		}
+		}
+	
+
+	
 }

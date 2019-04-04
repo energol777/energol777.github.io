@@ -1078,8 +1078,18 @@ footer .footer_copyrighting span {
     margin-bottom: 0;
     font-size: 12px;
   }
+  .out-system_bloks .out-system_blok {
+    width: 75%;
+    height: 300px;
+  }
+  .logs .slick-prev {
+    margin-left: 20px;
+  }
+  .logs .slick-next {
+    margin-right: 20px;
+  }
 }
-@media (max-width: 576px) {
+@media (max-width: 768px) and (max-width: 576px) {
   body h4 {
     font-size: 25px;
   }
@@ -1114,7 +1124,7 @@ footer .footer_copyrighting span {
     width: 100%;
   }
   .welcome .out-system_bloks .out-system_blok {
-    width: 75%;
+    width: 70%;
     height: 300px;
   }
   .relar_content {
@@ -1130,7 +1140,8 @@ footer .footer_copyrighting span {
     flex-direction: column;
   }
   .blogs_content .slick-prev {
-    left: 85%;
+    left: 83%;
+    margin: 0;
   }
   .blogs_content .blog {
     flex-direction: column;
@@ -1151,9 +1162,24 @@ footer .footer_copyrighting span {
   .review .slick-slide {
     height: 260px;
   }
+  .contact_us .feed .name_and_company {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .contact_us .feed .phone_and_mail {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .contact_us .feed .phone_and_mail #applicationPhone {
+    margin-right: 0;
+  }
   .contact_us .feed input {
-    padding: 10px;
+    box-sizing: border-box;
+    margin-right: 0;
+    padding: 0 10px;
     font-size: 14px;
+    width: 100%;
+    margin-bottom: 20px;
   }
   .contact_us .feed button {
     box-sizing: border-box;
@@ -1162,11 +1188,5 @@ footer .footer_copyrighting span {
   }
   .timer {
     display: none;
-  }
-  .slick-prev {
-    margin-left: 20px;
-  }
-  .slick-next {
-    margin-right: 20px;
   }
 }
