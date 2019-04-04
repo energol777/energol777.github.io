@@ -93,7 +93,10 @@
 		count_neighbors[1] = life;
 		return count_neighbors
 	}
+
+
 	iterate[0].onclick = function () {
+
 	for (var i = 0; i < states.length; i++) {
         if (states[i] == "empty" && near(i)[1] == 3  )
         {
