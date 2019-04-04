@@ -51,7 +51,7 @@ body {
 }
 @media (max-width: 768px) {
   .game_hunters {
-    padding: 30px 0;
+    padding: 10px 0;
     flex-direction: column;
     justify-content: flex-start;
   }
